@@ -22,11 +22,11 @@ linkedin-post-optimiser/
 
 The toolkit has three components that work together:
 
-**1. Algorithm Research** - the evidence base. Data on how LinkedIn's algorithm weights engagement signals, the golden window, dwell time, comment threading and format multipliers. Read this first to understand *why* the other components work.
+**1. [Algorithm Research](research/linkedin-algorithm-research.md)** - the evidence base. Data on how LinkedIn's algorithm weights engagement signals, the golden window, dwell time, comment threading and format multipliers. Read this first to understand *why* the other components work.
 
-**2. Virality Checker** - an AI prompt that scores draft LinkedIn posts 0-100 across six categories: hook quality, content structure, engagement triggers, content value, technical optimisation and audience calibration. Use it with any AI assistant (Claude, ChatGPT, etc.) by pasting the prompt and your draft post.
+**2. [Virality Checker](skill/linkedin-virality-checker.md)** - an AI prompt that scores draft LinkedIn posts 0-100 across six categories: hook quality, content structure, engagement triggers, content value, technical optimisation and audience calibration. Use it with any AI assistant (Claude, ChatGPT, etc.) by pasting the prompt and your draft post.
 
-**3. Post Accelerator Playbook** - a step-by-step guide for what to do before, during and after publishing. Covers the 30-minute golden window, cross-engagement strategy and what not to do.
+**3. [Post Accelerator Playbook](playbook/post-accelerator-playbook.md)** - a step-by-step guide for what to do before, during and after publishing. Covers the 30-minute golden window, cross-engagement strategy and what not to do.
 
 ## Getting started
 
@@ -36,7 +36,7 @@ The checker works with any AI assistant (Claude, ChatGPT, Gemini, etc.). Open a 
 
 > I want you to act as my LinkedIn post scorer. Here are your instructions:
 >
-> [paste the entire contents of `skill/linkedin-virality-checker.md` here]
+> [paste the entire contents of [`skill/linkedin-virality-checker.md`](skill/linkedin-virality-checker.md) here]
 
 The assistant will now understand the scoring framework and how to use it.
 
@@ -56,7 +56,7 @@ The assistant will walk you through seven sections one at a time, asking 1-2 que
 
 **Option B: Fill in the template manually**
 
-Copy `profiles/strategy-profile-template.md`, fill in each section and save it. See `profiles/example-strategy-profile.md` for a worked example of a completed profile.
+Copy [`profiles/strategy-profile-template.md`](profiles/strategy-profile-template.md), fill in each section and save it. See [`profiles/example-strategy-profile.md`](profiles/example-strategy-profile.md) for a worked example of a completed profile.
 
 ### Step 3: Load your profile (if using Option B or a saved profile)
 
@@ -76,13 +76,13 @@ The assistant will return a score out of 100 with a category breakdown, strength
 
 ### Step 5: Follow the playbook
 
-Once your post scores 70+, use `playbook/post-accelerator-playbook.md` for the publishing workflow. The full playbook is for high-stakes posts; the light version covers everyday publishing.
+Once your post scores 70+, use [`playbook/post-accelerator-playbook.md`](playbook/post-accelerator-playbook.md) for the publishing workflow. The full playbook is for high-stakes posts; the light version covers everyday publishing.
 
 ### Tips for ongoing use
 
 - **Save your strategy profile** as a file so you can paste it into new conversations without rebuilding it each time.
 - **You don't need to reload the checker every time** if your AI assistant supports custom instructions, system prompts or project knowledge. Upload the checker and your profile there for persistent access.
-- **The research document** (`research/linkedin-algorithm-research.md`) is useful background reading but doesn't need to be loaded into the AI. The checker already incorporates the research findings into its scoring criteria.
+- **The research document** ([`research/linkedin-algorithm-research.md`](research/linkedin-algorithm-research.md)) is useful background reading but doesn't need to be loaded into the AI. The checker already incorporates the research findings into its scoring criteria.
 
 ## Key findings from the research
 
