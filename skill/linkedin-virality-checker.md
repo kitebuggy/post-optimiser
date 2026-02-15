@@ -296,24 +296,38 @@ Example: "The EU AI Act classifies recruitment AI as high-risk" -> "This means y
 
 ## AI Tells Check (Mandatory)
 
-Before returning the score, scan the post for common AI-generated content markers. Flag any of the following and deduct from the relevant category score:
+Before returning the score, scan the post for common AI-generated content markers. Flag any of the following and deduct from the relevant category score.
+
+This list covers the most common tells as of early 2026, but AI writing patterns evolve. Also flag any other patterns you recognise as characteristically AI-generated, even if they are not listed here. If in doubt, flag it and explain why - a false positive is less damaging than letting an obvious AI tell through to publication.
 
 **Word choice flags (deduct 1-2 points per occurrence from Category 4):**
 - delve, dive into, unpack, leverage, harness, unlock, navigate (metaphorical), streamline, elevate, foster, empower
-- robust, seamless, holistic, pivotal, multifaceted, cutting-edge
-- landscape, journey, realm, plethora, myriad, synergy
-- "get" used as a lazy verb
+- robust, seamless, comprehensive (occasional use acceptable in technical context), cutting-edge, holistic, pivotal, multifaceted
+- landscape (as in "the AI landscape"), journey (especially "embark on a journey"), realm, plethora, myriad, synergy
+- "get" used as a lazy verb (use receive, obtain, achieve, gain or restructure the sentence)
 
 **Structure flags (deduct 1-2 points from Category 2):**
-- Throat-clearing openers: "It's worth noting", "When it comes to", "In today's world"
-- Transition overuse: "Additionally," "Furthermore," "Moreover" starting sentences
+- Throat-clearing openers: "It's worth noting", "It's important to understand that...", "When it comes to", "In today's world", "In an era of..."
+- Transition overuse: "Additionally," "Furthermore," "Moreover," "Importantly," starting sentences
+- Pivot phrases: "That said," used as a transition
 - Contrastive fragment differentiation: "Not X. Not Y." after a positive statement
-- False summaries: "In conclusion...", "To sum up..."
+- False summaries: "In conclusion...", "To sum up...", "The bottom line is..."
+- The five-paragraph essay structure: introduction that previews what's coming, body sections of roughly equal length, conclusion that restates everything - this is a dead giveaway of AI generation
+- The triple construction: always listing exactly three things ("X, Y, and Z") in every paragraph. Humans naturally vary between two, three, four or more items. Relentless triples signal AI.
+
+**Content flags (deduct 1-2 points from Category 4):**
+- Stating the obvious as insight: "Communication is key", "Every organisation is different", "There's no one-size-fits-all solution"
+- Excessive hedging: "Of course, this depends on your specific situation", "To be sure, there are challenges", caveating every statement
+- Rhetorical question openers: "Have you ever wondered...?", "What if there was a better way?"
 
 **Formatting flags (deduct 1 point from Category 5):**
 - Double em-dashes (should be single en-dash with spaces)
 - Excessive Oxford commas (only acceptable when needed for clarity)
 - Bold text scattered throughout for emphasis
+- Headers for sections that don't need them, or bullet points where flowing prose would read more naturally
+
+**The read-aloud test:**
+As a final check, mentally read the post aloud. If it sounds like corporate jargon, a press release, or something anyone could have written about anything, flag it. AI-generated content often "sounds right" on paper but feels hollow when spoken. Real human writing has rhythm, personality and rough edges that AI tends to sand away.
 
 ---
 
