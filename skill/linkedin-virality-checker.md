@@ -419,12 +419,18 @@ LINKEDIN VIRALITY CHECK
 Overall Score: [X]/100 [Threshold label: Gold/Green/Amber/Red]
 
 Category Breakdown:
-  Hook Quality:           [X]/25
-  Content Structure:      [X]/20
-  Engagement Triggers:    [X]/20
-  Content Value:          [X]/15
-  Technical Optimisation: [X]/10
-  Audience Calibration:   [X]/10
+  Hook Quality:                  [X]/25
+  Content Structure:             [X]/20
+  Engagement Triggers:           [X]/20
+  Content Value:                 [X]/15
+  Technical Optimisation:        [X]/10
+  Audience Calibration:          [X]/10
+  Cumulative Rhetorical Penalty: [0 or -3]
+
+Note: The Overall Score is the sum of all six categories plus the
+cumulative rhetorical penalty (if applied). The cumulative penalty
+is -3 when three or more rhetorical patterns from the scan below
+are triggered, otherwise 0.
 
 Strengths:
 - [What works well - 2-3 points]
@@ -437,8 +443,8 @@ AI Tells Found:
   Lexical:    [Any word/phrase/structure flags, or "None detected"]
   Rhetorical: [Any of the 10 rhetorical patterns triggered, with
                severity tier and point deduction, or "None detected"]
-  Cumulative: [If 3+ rhetorical patterns triggered, note the
-               additional penalty, or "N/A"]
+  Cumulative: [If 3+ rhetorical patterns triggered, state "3+
+               patterns detected: -3 overall", or "N/A"]
 
 Anti-Patterns:
 - [Any critical flags, or "None detected"]
