@@ -76,6 +76,7 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Fits within 110 characters for full mobile visibility
 - Makes clicking "See more" feel irresistible
 - Hook type is one of: surprising data point, bold/contrarian statement, specific question, story tease, or pain-point mirror
+- **Sharp, memorable framing:** The opening introduces a distinctive concept, reframe or coined term that is easy to recall. Posts that name a phenomenon, flip a common assumption, or offer a fresh lens score highest. Posts that open with generic statements or restated conventional wisdom score lower.
 
 **Score 13-19 (Good):**
 - Reasonable hook that creates some interest
@@ -87,6 +88,7 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Buries the hook after the fold
 - Corporate announcement tone
 - Uses a question that is too broad ("What do you think about AI?")
+- No distinctive framing — opens with conventional wisdom or a statement interchangeable with thousands of other posts
 
 **Score 0-6 (Poor):**
 - No discernible hook
@@ -113,6 +115,7 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Visual breathing room throughout
 - Format matches content: carousel for frameworks, text for hot takes, image for data
 - Asymmetric structure: more space on the surprising or complex part, less on the obvious part
+- **High signal-to-noise ratio:** Every sentence earns its place. Complex topics are distilled into clear, accessible insight. A single clear throughline runs from opening to close. Concrete language over abstract generalities. The reader leaves with one clear insight or next step.
 
 **Score 10-15 (Good):**
 - Reasonable length but could be tighter or more expansive
@@ -125,6 +128,7 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Under 200 characters (too thin to demonstrate expertise)
 - Multiple competing messages in one post
 - Every paragraph is a single sentence (breathless AI staccato)
+- Low signal-to-noise ratio: jargon-heavy without explanation, meandering or unfocused, padded with filler phrases, or trying to cover too many ideas at once
 
 **Score 0-4 (Poor):**
 - Dense, unbroken paragraph
@@ -138,18 +142,48 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - 1,600-2,500 characters: acceptable if every sentence earns its place
 - Over 2,500 characters: almost certainly needs trimming
 
-**Format multiplier note:** When advising on format choice, note these engagement multipliers from research: carousel/document posts (1.45x), polls (1.64x), multi-image (highest raw engagement rate at 6.6%), native video (1.10x), single image (1.18x), text-only (baseline).
+**Format and dwell time — the core principle:**
+The correct question when choosing a format is not "image or no image?" — it is "does this content require the reader to invest time?" LinkedIn's 360Brew algorithm uses dwell time as its primary quality signal. Formats that generate passive viewing are penalised; formats that require active engagement are rewarded.
+
+| Format | Mechanism | 360Brew signal |
+|--------|-----------|----------------|
+| Carousel / document | Requires swiping — each swipe is an engagement event | Strong — high interaction depth |
+| Information-dense image (complex graph, annotated framework, how-to visual) | Reader must zoom, re-read, absorb — functionally similar to carousel; high save rate | Strong — high dwell + saves |
+| Multi-image (2–9 images) | Requires scrolling within post card | Strong — high interaction depth |
+| Native video with >50% watch rate | Active watch time | Strong |
+| Text-only | Forces reading — no shortcut to meaning | Good — high dwell time |
+| Poll | Single click, opinion formation | Moderate — use sparingly to avoid engagement-bait perception |
+| Decorative single image (quote card, stock photo, branded header) | Passive viewing — processed in 2–4 seconds, then scroll | Penalised — low dwell, ~30% below text-only under 360Brew |
+
+**Format guidance for common content types:**
+- Hot take / opinion / thought leadership with personal anecdote → **text-only**
+- Framework, checklist, or step-by-step process → **carousel** (most appropriate for senior audiences who want to save and reference)
+- Complex data, graph, or annotated how-to → **information-dense single image** (reader must invest time; generates saves)
+- Narrative or case study → **text-only** (story needs to be read, not glanced at)
+- Regulatory or factual data point → **text-only with the stat in the hook** (not an infographic)
+- Event or announcement → single decorative image is acceptable here (not optimising for engagement depth)
+
+**Key facts:**
+- Decorative single images underperform text-only by ~30% under 360Brew — the passive viewing problem
+- Information-dense images that require reading/zooming do NOT follow this pattern — high dwell + disproportionately high save rates
+- Carousel/document: 1.45x multiplier; multi-image: 6.6% engagement rate (highest raw); polls: 1.64x
+- Saves outrank likes as an algorithmic signal: 200 saves > 1,000 likes
+- Linkless posts outperform by 6x reach and 18x comments vs posts with external links in the body
 
 ---
 
 ### Category 3: Engagement Trigger Quality (20 points)
 
 **Score 16-20 (Excellent):**
-- Contains a specific, open-ended question that invites substantive comments
+- Contains a specific, open-ended question that invites substantive comments — specific enough that it could only belong to this post
 - Takes a clear position or shares a contrarian view that provokes thought
 - Creates high-arousal emotion: curiosity, surprise, aspiration or respectful challenge
 - Likely to generate comments of 15+ words (which the algorithm weights heavily)
 - No engagement bait patterns
+- CTA structure, if present, follows the optimal sequence: **comment ask → connect ask → repost ask** (in that order — see CTA mechanics below)
+- **Built-in tension or contrast:** The post creates a contrast between two ideas, forces or perspectives (e.g. speed vs. craftsmanship, compliance vs. innovation, short-term vs. long-term). Posts that set up a meaningful tension drive engagement because readers take sides, re-read, and comment to resolve the tension. One-dimensional posts that lack any opposing force score lower.
+- **Reflective closing question:** If the post ends with a question, it invites the reader to examine their own experience or process — not just agree or disagree. The test: does the question push self-examination, or is it a lazy closer swappable with any topic? (See also Rhetorical Pattern #2 in AI Tells.)
+- **Names an unarticulated feeling:** The post identifies and labels an experience that many people have but rarely put into words. This is a high-virality signal because readers feel "seen" and are compelled to share. Posts that surface a shared but unnamed experience should score higher.
 
 **Score 10-15 (Good):**
 - Has a CTA or question but could be more specific
@@ -160,6 +194,8 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Generic CTA: "Thoughts?" or "Agree?"
 - No clear emotional trigger
 - Informational but not discussion-worthy
+- No tension, contrast or opposing force — reads as one-dimensional
+- Closing question is shallow or swappable with any topic
 
 **Score 0-4 (Poor):**
 - No CTA at all
@@ -181,6 +217,15 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Ask a question with genuine ambiguity (not one where there's an obvious "right" answer)
 - Share surprising data that challenges assumptions
 
+**CTA mechanics — ordering matters:**
+If the post uses a structured CTA, the comment ask must come first. LinkedIn's algorithm makes its initial distribution decision in the first 60–90 minutes based primarily on comment velocity and comment length. Putting a connect or follow ask first diverts early reader energy into silent profile visits — invisible to the algorithm. The optimal sequence:
+
+1. **Comment ask — first, always.** Specific enough to filter for genuine interest. For general audiences, a keyword gating CTA (e.g. "Comment CHECKLIST and I'll send you the template") maximises comment density and creates a keyword cluster in the thread that improves LinkedIn's topic-targeting. For senior executive or specialist professional audiences, keyword gating can undermine authority positioning — use a substantive question requiring a real answer instead.
+2. **Connect ask — second.** Frame it as a value exchange: "Connect with me so I can DM you" outperforms a bare "follow me" because it explains the why.
+3. **Repost ask — last.** Repost ♻️ for broader distribution or priority access to resources.
+
+**Audience consideration:** For senior executive audiences — C-suite, board-level, or specialist professionals — keyword gating CTAs can undermine practitioner credibility. The mechanic is widely recognised as a growth tactic, which conflicts with a measured authority positioning. Use a specific, substantive question that requires a genuine answer instead — this achieves comment density without the growth-hack aesthetic.
+
 ---
 
 ### Category 4: Content Value and Expertise Signals (15 points)
@@ -192,6 +237,8 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - Original perspective, not recycled advice
 - Passes the "So What?" test: technical fact leads to business implication leads to action step
 - Situated perspective: the author's reason for writing this, now, is clear
+- **Reasoning depth:** The post walks the reader through the logic behind its claim rather than just asserting an opinion. Look for reasoning markers: logical connectors ("because", "this means", "the result is"), cause-and-effect structures, specific examples or evidence, and process descriptions ("here's how I arrived at this"). Posts that show their working differentiate high-quality thought leadership from shallow hot takes.
+- **Normalises vulnerability:** Where relevant, the post acknowledges difficulty, discomfort or imperfection in a way that gives others permission to relate — admitting struggle, showing the messy middle, or calling out a universal insecurity. Note: performative vulnerability (humble-bragging wrapped in fake modesty) does not earn this credit and is penalised under Rhetorical Pattern #3 in the AI Tells check.
 
 **Score 8-11 (Good):**
 - Useful content but somewhat generic
@@ -202,6 +249,8 @@ The opening line determines whether 60-70% of potential readers engage at all. T
 - States the obvious as insight ("Communication is key")
 - Generic advice that could apply to any industry
 - No specific data, examples or evidence
+- Makes bold claims without supporting reasoning — no logical chain, no evidence, no process description
+- Vulnerability feels performative or absent entirely
 
 **Score 0-3 (Poor):**
 - Pure opinion with no substance
@@ -261,6 +310,7 @@ Example: "The EU AI Act classifies recruitment AI as high-risk" -> "This means y
 - Trust signals present: experience markers, specific credentials, peer-validated perspective
 - Makes the reader feel smarter and more capable after reading
 - Content aligns with the author's professional profile and stated expertise (topic-profile alignment — a key 360Brew signal)
+- **Authentic voice:** The post sounds like a specific person, not a template. It retains the author's distinct voice, quirks and perspective even after AI-assisted editing. LinkedIn explicitly endorses AI-assisted content creation but penalises output that feels templated, overly polished or generic. If a Strategy Profile is loaded, check the post against the author's declared tone and style preferences.
 
 **Score 5-7 (Good):**
 - Mostly appropriate tone but slightly too technical or too salesy in places
@@ -271,6 +321,7 @@ Example: "The EU AI Act classifies recruitment AI as high-risk" -> "This means y
 - Too technical for the target audience
 - Sounds like a vendor pitch rather than thought leadership
 - Tone mismatches the audience's cultural context
+- Voice feels generic or templated — could have been written by anyone about anything
 
 **Score 0-1 (Poor):**
 - Pure sales pitch
@@ -454,6 +505,15 @@ Suggested Revision:
 for the weakest sections. For rhetorical pattern flags, provide a
 concrete rewrite showing how to replace the pattern with a human-
 sounding alternative.]
+
+Thematic Consistency Check (Advisory):
+[Does this post align with the author's established content pillars
+or recurring themes? If a Strategy Profile is loaded, check against
+declared content themes. If not, remind the author: "LinkedIn's
+algorithm builds topic authority over 60-90 days of consistent
+posting within 2-3 defined themes. Consider whether this post
+reinforces or scatters your topical footprint." This is advisory —
+not scored — but important for long-term distribution.]
 ```
 
 ---
@@ -469,6 +529,9 @@ When the score is 70+, also advise:
 - Vary format between posts (don't publish three text-only posts in a row)
 - Optimal frequency: 3-4 posts per week. Daily posting causes consecutive posts to cannibalise each other's distribution.
 
+**First self-comment (mandatory for scored posts 70+):**
+Immediately after publishing, post a first comment containing: (a) any external link you intentionally kept out of the post body, and (b) a bridging line that adds context or invites a follow-up exchange. This eliminates the link-in-body penalty while seeding the comment section before the first organic reply arrives.
+
 ---
 
 ## Quick Reference: What B2B Audiences Want
@@ -480,3 +543,10 @@ When the score is 70+, also advise:
 - Evidence of real expertise through concrete detail
 - Provocation that challenges their thinking
 - Content that makes them feel smarter after reading it
+
+---
+
+*Version: 3.1*
+*Updated: 2026-04-02*
+*v3.1: Integrated LinkedIn's "Create Possibilities" Featured Post Rubric (April 2026) into scoring categories. Added sharp/memorable framing to Hook Quality. Added signal-to-noise ratio to Content Structure. Added built-in tension/contrast, reflective closing question and naming unarticulated feelings to Engagement Triggers. Added reasoning depth and normalising vulnerability to Content Value. Added authenticity/voice check to Audience Calibration. Added thematic consistency advisory to output format.*
+*v3.0: Replaced flat format multiplier note with passive-vs-interactive dwell time framework. Added information-dense image category (high dwell + saves). Added structured CTA mechanics with ordering rationale, keyword gating guidance, and senior audience adaptation note. Added first self-comment advisory.*
